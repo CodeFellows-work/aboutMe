@@ -7,7 +7,7 @@ My name is Sunny Lee, and I am a software developer. I ultimately want to be sur
 ### Author: Sunny Lee
 
 ### Links and Resources
-* ![submission PR](https://canvas.instructure.com/courses/2643794/discussion_topics/10931591?module_item_id=43891491)
+* [submission PR](https://canvas.instructure.com/courses/2643794/discussion_topics/10931591?module_item_id=43891491)
 
 ### Reflections and Comments
 * Overall I think that this assignment was fun.  It was not too difficult and I firmly believe it is because I paid attention during class and from the books and resources that were provided. 
