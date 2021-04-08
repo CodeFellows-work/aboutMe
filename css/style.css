@@ -61,6 +61,17 @@ ul{
   font-size:1.2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+ol{
+  list-style-type: decimal;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  font-size:1.2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+  margin: 1em; 
+  font-size:1em;
+}
 body{
   background-image:url(https://media3.giphy.com/media/683tTLmZjTVSktNhml/giphy.gif?cid=ecf05e476k7mi1gsshfnm0xyokgykycpntywga30wr6la6sx&rid=giphy.gif)
 }
