@@ -10,8 +10,6 @@ function userInputName(){
   // making sure that the username is string
   while(userName === '' || userName === null){
     userName = prompt('Please enter a real name!');
-    // will console log the user's name
-    console.log(userName);
   }
   // Returns the user name to userInputName
   return userName;
@@ -26,8 +24,6 @@ function liveInWaQ(){
   //question 1
   // will prompt the user to answer yes or no
   let fromWhere = prompt('So ' + userNameOutside + ', do I live in Washington? Answers must be yes or no');
-  // will console log the answer
-  console.log(fromWhere);
   // will change the answer to a lower case y or n
   let fromWhereLowerCase = fromWhere.toLocaleLowerCase();
   //yes, y, yea, yeah, no, n, nah, nope, will allow the user to continue.
@@ -35,18 +31,13 @@ function liveInWaQ(){
     alert('Nice! I hated living here at first but I started to enjoy it');
     // The score will increment by one if the predicted user input is used
     scoreKeeper++;
-    console.log('current score is ' + scoreKeeper);
   } else if (fromWhereLowerCase === 'yea'|| fromWhereLowerCase === 'yeah'){
-    console.log(fromWhereLowerCase);
     alert('That\'s awesome, but let\'s not get too ahead of ourselves. You had to answer either yes or no.');
     // The score will increment by one if the predicted user input is used
     scoreKeeper++;
-    console.log('current score is ' + scoreKeeper);
   } else if(fromWhereLowerCase === 'no'|| fromWhereLowerCase === 'n'){
-    console.log(fromWhereLowerCase);
     alert('No, I live in Washington.');
   } else if(fromWhereLowerCase === 'nah' || fromWhereLowerCase === 'nope'){
-    console.log(fromWhereLowerCase);
     alert('Interesting I\'ll let you pass this time, but make sure you enter yes or no next time.');
     // If the user deviates from any of the choices mentioned this alert will display
   } else{
@@ -64,18 +55,13 @@ function likeStudyQ(){
     alert('Nice! I like Studying but it may be hard, sometimes but I must persevere');
     //The score will add one of the predicted input above is used
     scoreKeeper++;
-    console.log('current score is ' + scoreKeeper);
   } else if (doStudyLower === 'yea'|| doStudyLower=== 'yeah'){
-    console.log(doStudyLower);
     alert('That\'s awesome, but let\'s not get too ahead of ourselves. You had to answer either yes or no.');
     // The score will increment by one if the predicted user input is used
     scoreKeeper++;
-    console.log('current score is ' + scoreKeeper);
   } else if(doStudyLower === 'no'|| doStudyLower === 'n'){
-    console.log(doStudyLower);
     alert('Well... studying can be challenging at times, but if you stick through it it will benefit you greatly!');
   } else if(doStudyLower === 'nah' || doStudyLower=== 'nope'){
-    console.log(doStudyLower);
     alert('Interesting I\'ll let you pass this time, but make sure you enter yes or no next time.');
   // If the user deviates from the predicted outputs this alert message will be displayed
   } else{
@@ -92,20 +78,15 @@ function techIndustryQ(){
   if(workExpLower === 'yes' || workExpLower === 'y'){
     alert('Nope! One day I\'ll be able to be in the tech industry.');
   } else if (workExpLower === 'yea'|| workExpLower === 'yeah'){
-    console.log(workExpLower);
     alert('That\'s awesome, but let\'s not get too ahead of ourselves. You had to answer either yes or no.');
   } else if(workExpLower === 'no'|| workExpLower === 'n'){
-    console.log(workExpLower);
     alert('And that is why I am here! Let us work hard to achieve our desire job!');
     // The score will increment by one if the predicted user input is used
     scoreKeeper++;
-    console.log('current score is ' + scoreKeeper);
   } else if(workExpLower === 'nah' || workExpLower === 'nope'){
-    console.log(workExpLower);
     alert('Interesting I\'ll let you pass this time, but make sure you enter yes or no next time.');
     // The score will increment by one if the predicted user input is used
     scoreKeeper++;
-    console.log('current score is ' + scoreKeeper);
   // If the user deviates from the predicted outputs this alert message will be displayed
   } else{
     alert('MAKE SURE TO ANSWER WITH yes or no!!!');
@@ -122,18 +103,13 @@ function goalInlineQ(){
     alert('That is good to hear. I just have to make sure to keep chasing after it!');
     // The score will increment by one if the predicted user input is used
     scoreKeeper++;
-    console.log('current score is ' + scoreKeeper);
   } else if (goalInlineLower === 'yea'|| goalInlineLower === 'yeah'){
-    console.log(goalInlineLower);
     alert('That\'s awesome, but let\'s not get too ahead of ourselves. You had to answer either yes or no.');
     // The score will increment by one if the predicted user input is used
     scoreKeeper++;
-    console.log('current score is ' + scoreKeeper);
   } else if(goalInlineLower === 'no'|| goalInlineLower === 'n'){
-    console.log(goalInlineLower);
     alert('Well that does\'nt sound too pleaseing');
   } else if(goalInlineLower === 'nah' || goalInlineLower === 'nope'){
-    console.log(goalInlineLower);
     alert('Interesting I\'ll let you pass this time, but make sure you enter yes or no next time.');
   // If the user deviates from the predicted outputs this alert message will be displayed
   } else{
@@ -151,18 +127,13 @@ function workOutQ(){
     alert('Awesome yeah! Working out even 10 minutes a day provides you with may health benefits!');
     // The score will increment by one if the predicted user input is used
     scoreKeeper++;
-    console.log('current score is ' + scoreKeeper);
   } else if (workOutLower === 'yea'|| workOutLower === 'yeah'){
-    console.log(workOutLower);
     alert('That\'s awesome, but let\'s not get too ahead of ourselves. You had to answer either yes or no.');
     // The score will increment by one if the predicted user input is used
     scoreKeeper++;
-    console.log('current score is ' + scoreKeeper);
   } else if(workOutLower === 'no'|| workOutLower === 'n'){
-    console.log(workOutLower);
     alert('Well, sometimes, but I will do my best to squeeze a work out in!');
   } else if(workOutLower === 'nah' || workOutLower === 'nope'){
-    console.log(workOutLower);
     alert('Interesting I\'ll let you pass this time, but make sure you enter yes or no next time.');
   //If the user deviates from the predicted outputs this alert message will be displayed
   } else{
@@ -184,21 +155,16 @@ function visitCountryScale(){
       alert('Congratualtions! My number was ' + myNum);
       //score is incremented by one with the right answer
       scoreKeeper++;
-      console.log('current score is ' + scoreKeeper);
       break;
     }
     // If the user guesses a number smaller than myNum, then it will alert the user that it is too low, as well as decrement the variable tries
     if(numberScale < myNum){
       tries--;
       alert('You guessed too low! You have ' + tries + ' trys left!');
-      console.log('The number guessed by the user that is too small is: ' + numberScale);
-      console.log('logs how many trys are left' + tries);
       //If the user guesses a number larger than myNum, then it will alert the user that it is too large, as well as decrement the variable tries
     } else if(numberScale > myNum){
       tries--;
       alert('You guessed too High! You have ' + tries +' trys left!');
-      console.log('The number guessed by user that was too large is: ' + numberScale);
-      console.log('logs how many trys are left' + tries);
     }
   }
   // once the tries variable has been decremented to 0, it will alert the user that they are out of trys and also display the myNum
@@ -222,20 +188,16 @@ function supplementGuess(){
       // if any of the guesses matches any value of the array, it is the right answer
       if(guessMySupplement === myQuestionArr[index]){
         alert('congratulations! You actually got one right!');
-        console.log('User input was:', guessMySupplement);
-        console.log('This is the current index of the array ' + myQuestionArr[index]);
         //this is set to true because it was the correct answer
         userGuessedRight = true;
         // attempts will be set to 0 to get out of the loop
         attempts = '0';
         // score increments by 1
         scoreKeeper++;
-        console.log('current score is ' + scoreKeeper);
       }
     }
     // this is a statement for if the user guesses wrong and the attempts will decrement
     if(userGuessedRight === false){
-      console.log('This is what the user inputted' + guessMySupplement);
       alert('Sorry you guessed wrong try again! You have ' + attempts + ' tries left.');
       attempts--;
     }
