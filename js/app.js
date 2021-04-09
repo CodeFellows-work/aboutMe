@@ -1,11 +1,8 @@
 'use srict';
 // intro welcoming alert
 alert('Hello and Welcome to my about me webpage. You\'ll get to know a bit about me, but let\'s try to guess some things about me!');
-
 // This will keep track of all the correct guesses the user inputs
 let scoreKeeper = 0;
-
-
 //Added function to name prompt
 function userInputName(){
   // declaring a username variable for user name input
@@ -19,13 +16,11 @@ function userInputName(){
   // Returns the user name to userInputName
   return userName;
 }
-
 //Added function to greeting message
 function helloUser(){
   // will alert with hello and the inputted username
   alert('Hello! ' + userNameOutside);
 }
-
 // added function to question 1
 function liveInWaQ(){
   //question 1
@@ -58,7 +53,6 @@ function liveInWaQ(){
     alert('MAKE SURE TO ANSWER WITH yes or no!!!');
   }
 }
-
 // Added function to question 2
 function likeStudyQ(){
   //Question 2
@@ -88,7 +82,6 @@ function likeStudyQ(){
     alert('MAKE SURE TO ANSWER WITH yes or no!!!');
   }
 }
-
 // Added function to question 3
 function techIndustryQ(){
   //Question 3
@@ -118,7 +111,6 @@ function techIndustryQ(){
     alert('MAKE SURE TO ANSWER WITH yes or no!!!');
   }
 }
-
 //Added function to question 4
 function goalInlineQ(){
   //Question 4
@@ -148,7 +140,6 @@ function goalInlineQ(){
     alert('MAKE SURE TO ANSWER WITH yes or no!!!');
   }
 }
-
 //Added function to question 5
 function workOutQ(){
   //Question 5
@@ -178,7 +169,6 @@ function workOutQ(){
     alert('MAKE SURE TO ANSWER WITH yes or no!!!');
   }
 }
-
 //Added function to question 6
 function visitCountryScale(){
   // The number within the scale which describes how bad I want to visit another country.
@@ -216,7 +206,6 @@ function visitCountryScale(){
     alert('Sorry you have no more trys left! The correct answer was ' + myNum);
   }
 }
-
 //Added function to question 7
 function supplementGuess(){
   // This array contains all the correct answer to my question on line 191
@@ -256,10 +245,6 @@ function supplementGuess(){
     alert('Sorry you are all out of tries! My favorite supplements were ' + myQuestionArr);
   }
 }
-
-// alert message will display user the score for all the questions they got right out of the total of 7 questions
-alert('Thank you for playing my guessing game! your score throughout this journey was ' + scoreKeeper + ' out of 7 questions.');
-
 // created a variable to get usersName from userInputName function
 let userNameOutside = userInputName();
 //greeting the user function
@@ -278,3 +263,5 @@ workOutQ();
 visitCountryScale();
 //guess the supplement in array question 7 function
 supplementGuess();
+// alert message will display user the score for all the questions they got right out of the total of 7 questions
+alert('Thank you for playing my guessing game! your score throughout this journey was ' + scoreKeeper + ' out of 7 questions.');
